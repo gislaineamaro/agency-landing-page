@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,200&family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #3e3fd8;
+  --color-text-primary: #2e323b;
+  --white-primary: #eef4ff;
+  --white-secondary: #ffffff;
+  --dark-primary: #61646b;
+
+  --font-title: 'Jost', sans-serif;
+  --font-text: 'Poppins', sans-serif;
+}
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+.sections-list {
+  display: flex;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+.item-list {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  width: 100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.item-list:hover {
+  transition: shadow 0.2s;
+  color: var(--color-primary);
+}
+.btn-signUp {
+  background-color: var(--white-primary);
+  color: #3e3fd8;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  width: 7rem;
+  cursor: pointer;
+}
+.btn-signUp:hover {
+  transition: all 0.2ms;
+  background-color: #f6f6ff;
+}
+
+/*  */
+.info-content,
+.business-man {
+  display: flex;
+  flex-direction: column;
+}
+.info-content {
+  width: 35%;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.initial-title {
+  font-family: 'Jost', sans-serif;
+  color: var(--color-text-primary);
+  font-size: 40px;
+}
+.initial-paragraph {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  width: 80%;
+  color: var(--dark-primary);
+}
+.buttons-group {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.btnCommon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-title);
+  font-weight: 200;
+  background-color: var(--color-primary);
+  border-radius: 20px;
+  color: var(--white-secondary);
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+.btnCommon:hover {
+  transition: all 0.2ms;
+  background-color: #2c2cb8;
+}
+.icon-arrow {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.btnWatchVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  margin-left: 1.5rem;
+  background-color: transparent;
+  color: var(--dark-primary);
+  cursor: pointer;
+}
+.btnWatchVideo:hover {
+  transition: background 2ms;
+  color: var(--color-primary);
+}
+.icon-play {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+.text-describe {
+  font-family: var(--font-title);
+  width: 50rem;
+  font-size: 40px;
+  margin-top: 9rem;
+}
+.ilustration-svg {
+  height: 45rem;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+.clients-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+/*  */
+.content-benefits,
+.content-news,
+.content-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+.header {
+  width: 35%;
+  text-align: center;
+}
+.title {
+  font-family: var(--font-title);
+  font-size: 48px;
+}
+.paragraph {
+  font-family: var(--font-title);
+  font-size: 18px;
+  color: var(--dark-primary);
+}
+
+.icon {
+  width: 12rem;
+  margin-bottom: -2rem;
+  margin-left: -2.8rem;
+}
+.card-list {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 20%;
+  padding: 2%;
+  margin-left: 25px;
+  box-shadow: 0 0 1em #c5c5c54f;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+.card-title {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+}
+.btnReadMore {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: var(--font-title);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.btnReadMore:hover {
+  transition: shadow 0.2s;
+  box-shadow: 0 0 1em #dddcdc3d;
+  transform: scale(1.02);
+}
+
+/*  */
+.card-news {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: auto;
+  padding: 2%;
+  box-shadow: 0 0 1em #c5c5c54f;
+  border: 1px solid var(--color-primary);
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.card-image {
+  border-radius: 20px;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+.body-news {
+  font-family: var(--font-title);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+/*  */
+.call-to-action {
+  color: var(--color-primary);
+  font-family: var(--font-title);
+  font-size: 25px;
+}
+.title-subscribe {
+  font-family: var(--font-title);
+  font-size: 40px;
+}
+.input-group {
+  margin-top: 2rem;
+  position: relative;
+}
+.input-email {
+  border: 1px solid var(--dark-primary);
+  border-radius: 20px;
+  padding: 12px;
+  width: 30rem;
+  font-family: var(--font-title);
+  font-size: 20px;
+  outline: none;
+}
+.btn-email {
+  position: absolute;
+  transform: translateX(2px);
+  display: flex;
+  align-items: center;
+  top: 5px;
+  right: 5px;
+  z-index: 2;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  color: var(--white-secondary);
+  background-color: var(--color-primary);
+  font-family: var(--font-title);
+  font-weight: 200;
+}
+
+/*  */
+
+.container-footer {
+  margin-top: 10rem;
+  background-color: var(--color-primary);
+  color: var(--white-secondary);
+  font-family: var(--font-title);
+}
+.content {
+  padding: 9rem;
+  display: flex;
+  flex-direction: row;
+}
+.social-midia-describe {
+  width: 20rem;
+  font-size: 18px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.social-midia {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.group-list {
+  display: flex;
+  flex-direction: row;
+}
+.list-topics {
+  list-style: none;
+}
+.item-topics {
+  text-decoration: none;
+  color: var(--white-secondary);
+  font-weight: 100;
+  line-height: 2rem;
+}
+.group-topics {
+  margin-left: 10rem;
+}
+.credits {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
