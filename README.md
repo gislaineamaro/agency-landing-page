@@ -1,8 +1,8 @@
 # Agency | Landing page
 
 <div style="{display: flex}">
-<img src="https://github.com/gislaineamaro/agency-landing-page/blob/main/src/assets/print_page01.png" alt="imagem de exemplo da aparência da página" style="{width: 400px; height: 400px;}">
-<img src="https://github.com/gislaineamaro/agency-landing-page/blob/main/src/assets/print_page02.png" alt="imagem de exemplo da aparência da página" style="{width: 400px; height: 400px;}">
+<img src="https://github.com/gislaineamaro/agency-landing-page/blob/main/src/assets/print_page01.png" alt="imagem de exemplo da aparência da página" style="{width: 300px; height: 300px;}">
+<img src="https://github.com/gislaineamaro/agency-landing-page/blob/main/src/assets/print_page02.png" alt="imagem de exemplo da aparência da página" style="{width: 300px; height: 300px;}">
 </div>
 --> Página criada para o estudo da estrutura de uma landing page, ela é constituída de HTML e CSS.
 
